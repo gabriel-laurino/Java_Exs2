@@ -8,8 +8,12 @@ public class Exercicio01 {
             soma += numeros[i];
         }
         
+        Prompt.linhaEmBranco();
+        
         double media = soma / numeros.length;
         Prompt.imprimir("Média: " + media);
+
+        Prompt.linhaEmBranco();
         
         for (double num : numeros) {
             if (num < media) {
